@@ -61,8 +61,8 @@ img {
     color:#0BADA6;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold; 
-    padding-top: 25px;
-    padding-left: 15px;
+    padding-top: 0px;
+    padding-left: 0px;
     text-align: center;
 }
 
@@ -80,6 +80,19 @@ footer{
     bottom: 0;
     width: 100%;
     padding-top: 15px;   
+}
+
+.center {
+    display: block;
+    margin-left:25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.center1 {
+    margin-left:40%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 550px) {
