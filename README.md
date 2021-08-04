@@ -5,3 +5,5 @@
 # Updated style.css and landing page html file
 
 # Added the cloudiness html file with links to landing page
+
+# Added new html pages for humidity and temperature
