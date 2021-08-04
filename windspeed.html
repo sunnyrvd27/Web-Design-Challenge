@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The html code for latitude vs humidity visualization -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Windspeed Visualization Dashboard</title>
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--CSS style sheet-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+       <div class="navigation">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" style="background-color: #0BADA6; color:white" href="LandingPage.html">Latitude</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" 
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+               aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+             
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ml-auto">
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Plots
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                     </div>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="comparisons.html">Comparison</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="data.html">Data</a>
+                   </li>
+                 </ul>
+               </div>
+             </nav>
+       </div>
+        <!-- Content -->
+       <div class="container">
+           <div class="row">
+             <!-- Left Session -->
+             <div class="col-lg-7">
+                   <div class="box">
+                     <h5 class="title">Humidity</h5>
+                     <img src="C:\Users\sunny\HTML\Web-Design-Challenge\Images\WindSpeed.png" alt="Wind Speed Visualization" width="500px" height="300px">
+                     <br>
+                     <br>
+                     <br>
+                     <p>The visualization shows a relationship between latitude changes and Humidity. The scatter plot does not show any significant relationship 
+                        between latitude and humidity. What we do see is in the latitudes between +20 and +40, we have occurances of humidity less than 20% </p>
+                   </div>
+            </div>
+             <!-- Right Session -->
+             <div class="col-lg-5">
+                   <div class="box">
+                     <h2>Visualizations</h2>
+                     <div class="container">
+                           <div class="row" >
+                             <div class="col-6">
+                                <a href="temperature.html">
+                                    <img class="panel" src="C:\Users\sunny\HTML\Web-Design-Challenge\Images\Temperature.png" width="200px" height="200px" alt="Temp Visualization">
+                                  </a>
+                                </div>
+                                <div class="col-6">
+                                  <a href="humidity.html">
+                                    <img class="panel" src="C:\Users\sunny\HTML\Web-Design-Challenge\Images\Humidity.png" width="200px" height="200px" alt="Humidity Visualization">
+                                  </a>
+                                </div>
+                              </div>
+                  
+                              <div class="row" >
+                                <div class="col-6">
+                                  <a href="cloudiness.html">
+                                    <img class="panel" src="C:\Users\sunny\HTML\Web-Design-Challenge\Images\Cloudliness.png" width="200px" height="200px" alt="Cloudiness Visualization">
+                                  </a>
+                                </div>
+                                <div class="col-6">
+                                  <a href="windspeed.html">
+                                    <img class="panel" src="C:\Users\sunny\HTML\Web-Design-Challenge\Images\WindSpeed.png" width="200px" height="200px" alt="Wind Speed Visualization">
+                                  </a>
+                             </div>
+                           </div>
+                    </div>
+             </div>
+       </div>       
+   </body>
+
+</html>>   
