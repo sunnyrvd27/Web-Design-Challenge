@@ -9,3 +9,5 @@
 # Added new html pages for humidity and temperature
 
 # Added the comparision file
+
+# added an Index file which is replica of the LandingPage.html
